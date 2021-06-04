@@ -1,13 +1,3 @@
-# def solution(array, commands):
-#     answer = []
-#     save = []
-#     for i in array:
-#         save.append(i)
-#     save = save[2-1:5]
-#     save.sort()
-#     print(save[2])
-#     return answer
-
 def solution(array, commands):
     answer = []
     for i in range(len(commands)):
